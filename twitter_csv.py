@@ -16,10 +16,10 @@ import csv
 from pymongo import MongoClient
 
 #Variables that contains the user credentials to access Twitter API 
-access_token = "997064128249262080-DGEtTgqYfwIOjq72zFcBLy0rbqLPes1"
-access_token_secret = "j5AumygTwpPPe4UqVbSP7FdtGfZ6nLowPXWAsmjAbHgAb"
-consumer_key = "kb4zGrnI4Dth9gZlUGiwviCL0"
-consumer_secret = "ZdyTjtYhZ4jwobXHWnXiTnb2WilFAbZm73PPYONAvfBPZpmygE"
+access_token = "xxxxxx"
+access_token_secret = "xxxxxxx"
+consumer_key = "xxxxxx"
+consumer_secret = "xxxxxxx"
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
